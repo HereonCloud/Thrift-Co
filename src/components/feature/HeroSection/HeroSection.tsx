@@ -10,7 +10,7 @@ const HeroSection = () => {
     ]
 
     return (
-        <section className="flex flex-col bg-gray px-small py-large sm:px-medium lg:flex-row md:px-large">
+        <section className="flex flex-col bg-gray px-medium pt-large sm:px-large lg:flex-row md:px-10">
             <div className="flex flex-col gap-4 w-[100%] lg:w-[50%]">
                 <h1 className="text-[56px] text-center font-extrabold w-[100%] lg:text-left sm:text-[64px]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
                 <p className="font-light text-center lg:text-left">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
