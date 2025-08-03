@@ -17,11 +17,11 @@ interface DesktopNavigationProps {
 const DesktopNavigation = (props: DesktopNavigationProps) => {
     return (
         <NavigationMenu viewport={false} className="justify-betwee md:flex hidden">
-            <span className="py-[8px] px-[16px] min-w-[88px] font-bold">THRIFT-CO</span>
+            <span className="py-medium px-large min-w-[88px] font-bold">THRIFT-CO</span>
             <NavigationMenuList className="flex justify-between w-[100%]">
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Shop</NavigationMenuTrigger>
-                    <NavigationMenuContent>
+                    <NavigationMenuContent className="bg-white">
                         {props.shopMenu.map((item, key) => (<ListItem to={item.href} key={key} className="hover:bg-hover rounded-xs">{item.title}</ListItem>))}
                     </NavigationMenuContent>
                 </NavigationMenuItem>

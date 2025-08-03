@@ -13,6 +13,10 @@
  --color-error:#FF3333;
  --color-rating:#FFC633;
  --color-hover: #F0F0F0;
+ --color-gray:#F2F0F1;
+ --spacing-large:16px;
+ --spacing-medium:8px;
+ --spacing-small:4px;
 }
 
 
@@ -20,7 +24,6 @@
   font-family: 'satoshi', sans-serif;
   font-weight: 500;
   font-size: 16px;
-
 }
 
 
@@ -31,3 +34,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+#root {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+

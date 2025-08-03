@@ -12,10 +12,10 @@ const MobileNavigation = (props: MobileNavigationProps) => {
             <div className="flex items-center gap-2">
                 <DropdownMenu>
                     <DropdownMenuTrigger><Menu /></DropdownMenuTrigger>
-                    <DropdownMenuContent className="ml-[6px]">
+                    <DropdownMenuContent className="ml-[6px] bg-white">
                         <DropdownMenuSub>
                             <DropdownMenuSubTrigger>Shop</DropdownMenuSubTrigger>
-                            <DropdownMenuSubContent className="ml-[6px]">
+                            <DropdownMenuSubContent className="ml-[6px] bg-white">
                                 {props.shopMenu.map((item, key) => (
                                     <DropdownMenuItem key={key}>
                                         <Link to={item.href}>{item.title}</Link>
